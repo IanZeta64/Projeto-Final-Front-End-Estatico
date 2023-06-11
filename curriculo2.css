@@ -28,13 +28,19 @@ body {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    border-radius:  1000px;
+    border:rgb(255, 255, 255);
+    border-width: 10px;
+    border-style:  double;
+    background-image: url(https://i.pinimg.com/564x/a0/5e/78/a05e7872dfc0147feb0478a09d1b9c0e.jpg);  
 }
 
 
 .contact-infos,
 .expertise-infos,
 .education-infos,
-.language-infos {
+.language-infos,
+.hobbies-infos {
     background-color: rgb(255, 255, 255);
     padding-left: 15px;
 }
@@ -42,7 +48,8 @@ body {
 .contact-infos ul,
 .expertise-infos ul,
 .education-infos ul,
-.language-infos ul {
+.language-infos ul,
+.hobbies-infos ul {
     list-style: none;
     padding: 0;
 }
@@ -55,14 +62,16 @@ body {
 
 .expertise-infos li,
 .education-infos li,
-.language-infos li {
+.language-infos li,
+.hobbies-infos li {
     font-size: 25px;
 }
 
 .contact-infos li i, 
 .expertise-infos li i, 
 .education-infos li i, 
-.language-infos li i {
+.language-infos li i,
+ .hobbies-infos li i {
     margin-right: 5px;
   }
 
